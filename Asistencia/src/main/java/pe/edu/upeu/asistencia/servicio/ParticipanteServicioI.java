@@ -11,5 +11,5 @@ public interface ParticipanteServicioI {
     Participante update (Participante participante);
     void delete(String dni);
 
-    Participante findById (int index);
+    Participante findById (String dni);
 }
