@@ -1,6 +1,7 @@
 package pe.edu.upeu.sysventas.repository;
 
 import pe.edu.upeu.sysventas.model.Categoria;
+import pe.edu.upeu.sysventas.model.Perfil;
 
-public interface PerfilRepository extends ICrudGenericRepository<Categoria, Long>{
+public interface PerfilRepository extends ICrudGenericRepository<Perfil, Long>{
 }

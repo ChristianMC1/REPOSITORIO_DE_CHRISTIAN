@@ -1,6 +1,7 @@
 package pe.edu.upeu.sysventas.repository;
 
 import pe.edu.upeu.sysventas.model.Categoria;
+import pe.edu.upeu.sysventas.model.UnidadMedida;
 
-public interface UnidadMedidaRepository extends ICrudGenericRepository<Categoria, Long>{
+public interface UnidadMedidaRepository extends ICrudGenericRepository<UnidadMedida, Long>{
 }

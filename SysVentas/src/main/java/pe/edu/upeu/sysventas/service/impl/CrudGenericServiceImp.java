@@ -42,4 +42,9 @@ public abstract class CrudGenericServiceImp<T, ID> implements ICrudGenericServic
         }
         getRepo().deleteById(id);
     }
+
+    @Override
+    public void delete(T t) {
+        getRepo().delete(t);
+    }
 }
